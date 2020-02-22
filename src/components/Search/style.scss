@@ -1,0 +1,19 @@
+.search {
+  label {
+    font-size: 14px;
+    color: #30475e;
+    display: block;
+  }
+  input {
+    width: 500px;
+    height: 50px;
+    font-size: 36px;
+    background: #79bac1;
+    color: #ffffff;
+    border: transparent;
+    padding: 5px 0 5px 10px;
+    &::placeholder {
+      color: #f1f3f4;
+    }
+  }
+}
