@@ -17,7 +17,7 @@ const Albums = ({ albums }) => {
             return (
             <AlbumCard
               album={album}
-              key={album.url + album.id + album.albumId}
+              key={album.url + album.albumId}
             />
           );
         })}
