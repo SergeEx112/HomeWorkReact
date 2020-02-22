@@ -18,7 +18,7 @@ const Photos = ({ photos }) => {
             return (
             <PhotoCard
               photo={photo}
-              key={photo.url + photo.id + photo.photoId}
+              key={photo.url + photo.photoId}
             />
           );
         })}
